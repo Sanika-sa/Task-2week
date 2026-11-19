@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Feel free to return if you have more questions."]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": ["Thanks", "Thank you", "That was helpful", "Appreciate it"],
+      "responses": ["You're very welcome!", "Happy to help!", "Anytime! Let me know if you need anything else."]
+    },
+    {
+      "tag": "services",
+      "patterns": ["What do you do?", "What services do you offer?", "How can you help me?"],
+      "responses": ["I am an AI assistant chatbot here to answer your questions and help you navigate our services."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your working hours?", "Are you open 24/7?", "When are you available?"],
+      "responses": ["Our support team is available Monday through Friday, 9:00 AM to 6:00 PM."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you located?", "What is your address?", "Where is your office?"],
+      "responses": ["Our head office is located in Pune, Maharashtra, India."]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["How much does it cost?", "What are your pricing plans?", "Is there a subscription fee?"],
+      "responses": ["We offer flexible pricing tiers depending on your project scope. Please visit our pricing page for details."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact support?", "Give me a phone number", "Is there an email address?"],
+      "responses": ["You can reach our support team via email at support@example.com or call us at +91-9876543210."]
+    },
+    {
+      "tag": "tech_stack",
+      "patterns": ["What technologies do you use?", "Are you built with Python?", "What is your tech stack?"],
+      "responses": ["This chatbot is built using Python, Flask, and natural language processing libraries."]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who created you?", "What is this project?", "Tell me about yourself"],
+      "responses": ["I was built as part of an AI internship assignment to demonstrate intent recognition and conversational flow."]
+    }
+  ]
+}
